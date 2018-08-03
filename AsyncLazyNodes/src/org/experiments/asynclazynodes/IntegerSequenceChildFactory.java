@@ -39,6 +39,7 @@ public class IntegerSequenceChildFactory extends ChildFactory<Integer> {
     @Override
     protected Node[] createNodesForKey(Integer key) {
         ++IntegerSequenceChildFactory.nodeCount;
+        System.out.println("createNodesForKey current nodeCount: " + IntegerSequenceChildFactory.nodeCount);
         return new Node[]{new GenericLeafNode(Integer.toString(key))};
     }
 

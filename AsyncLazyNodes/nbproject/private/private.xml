@@ -2,6 +2,26 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/nodes/DestroyableNodesFactory.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/experiments/asynclazynodes/DisplaySyncLazyNodes.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/experiments/asynclazynodes/DisplaySyncNonLazyNodes.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/nodes/ChildFactory.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/explorer/view/TreeTableView.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/nodes/Node.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/nodes/EntrySupportLazyState.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/nodes/ChildrenArray.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/explorer/view/VisualizerNode.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/nodes/Children.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/explorer/view/NodeTreeModel.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/explorer/view/VisualizerChildren.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/nodes/EntrySupport.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/explorer/view/NodeListModel.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/experiments/asynclazynodes/IntegerSequenceChildren.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/nodes/AbstractNode.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/nodes/EntrySupportLazy.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/experiments/asynclazynodes/TableViewTopComponent.java</file>
+            <file>file:/C:/cygwin/home/apriestman/Work/autopsy/AsyncLazyNodes/AsyncLazyNodes/src/org/openide/explorer/view/ContextTreeView.java</file>
+        </group>
     </open-files>
 </project-private>

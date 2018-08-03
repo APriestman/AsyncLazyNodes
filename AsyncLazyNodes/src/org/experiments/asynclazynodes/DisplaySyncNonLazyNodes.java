@@ -26,7 +26,7 @@ import org.openide.windows.WindowManager;
 @Messages("CTL_DisplaySyncNonLazyNodes=Display One Layer Sychronously")
 public final class DisplaySyncNonLazyNodes implements ActionListener {
 
-    private static final int SEQUENCE_LENGTH = 100;
+    private static final int SEQUENCE_LENGTH = 1000;
 
     @Override
     public void actionPerformed(ActionEvent e) {

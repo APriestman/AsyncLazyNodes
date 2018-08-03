@@ -241,4 +241,15 @@
             </folder>
         </folder>
     </folder>
+    <folder name="Services">
+        <folder name="PropertyEditorManager">
+            <file name="Package-org-openide-explorer-propertysheet-editors.instance">
+                <!--org.openide.explorer.propertysheet.editors-->
+                <attr
+                    methodvalue="org.netbeans.modules.openide.nodes.NodesRegistrationSupport.createPackageRegistration" name="instanceCreate"/>
+                <attr name="packagePath" stringvalue="org.openide.explorer.propertysheet.editors"/>
+                <attr name="instanceOf" stringvalue="org.netbeans.modules.openide.nodes.NodesRegistrationSupport$PEPackageRegistration"/>
+            </file>
+        </folder>
+    </folder>
 </filesystem>

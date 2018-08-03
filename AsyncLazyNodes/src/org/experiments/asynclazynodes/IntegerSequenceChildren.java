@@ -30,11 +30,18 @@ public class IntegerSequenceChildren extends Children.Keys<Integer> {
     }
 
     public static int resetCreatedNodesCount() {
-        return IntegerSequenceChildren.nodeCount = 0;
+        resetAllCounts();
+        return 0;
     }
 
     public static int resetLazyCreatedNodesCount() {
-        return IntegerSequenceChildren.lazyNodeCount = 0;
+        resetAllCounts();
+        return 0;
+    }
+    
+    private static void resetAllCounts() {
+        lazyNodeCount = 0;
+        nodeCount = 0;
     }
 
     public IntegerSequenceChildren(int sequenceLength, boolean generateNodesWithChildren, boolean lazy) {
@@ -65,8 +72,10 @@ public class IntegerSequenceChildren extends Children.Keys<Integer> {
     protected Node[] createNodes(Integer key) {
         if (this.lazy) {
             ++lazyNodeCount;
+            //System.out.println("createNodes current lazyNodeCount: " + lazyNodeCount + " (" + key + ")");
         } else {
             ++nodeCount;
+            //System.out.println("createNodes current nodeCount: " + nodeCount);
         }
         if (this.generateNodesWithChildren) {
             return new Node[]{new GenericParentNode(Integer.toString(key), new IntegerSequenceChildren(sequenceLength, false, lazy))};

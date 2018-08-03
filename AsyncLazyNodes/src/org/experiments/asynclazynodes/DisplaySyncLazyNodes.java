@@ -11,6 +11,7 @@ import org.openide.awt.ActionReference;
 import org.openide.awt.ActionRegistration;
 import org.openide.nodes.AbstractNode;
 import org.openide.nodes.Node;
+import org.openide.explorer.view.NodeTableModel;
 import org.openide.util.NbBundle.Messages;
 import org.openide.windows.WindowManager;
 
@@ -25,7 +26,7 @@ import org.openide.windows.WindowManager;
 @Messages("CTL_DisplaySyncLazyNodes=Display One Layer Synchronously and Lazily")
 public final class DisplaySyncLazyNodes implements ActionListener {
 
-    private static final int SEQUENCE_LENGTH = 100;
+    private static final int SEQUENCE_LENGTH = 200;
 
     @Override
     public void actionPerformed(ActionEvent e) {
@@ -41,7 +42,14 @@ public final class DisplaySyncLazyNodes implements ActionListener {
          */
         Node rootNode = new AbstractNode(new IntegerSequenceChildren(SEQUENCE_LENGTH, false, true));
         TableViewTopComponent tableView = (TableViewTopComponent) WindowManager.getDefault().findTopComponent("TableViewTopComponent");
-        tableView.setRootNode(rootNode);
+        /*
+        NodeTableModel nodeTableModel = new NodeTableModel();
+        nodeTableModel.setNodes(rootNode.getChildren().getNodes());
+        System.out.println("After call to getChildren().getNodes()");
+        tableView.tableView = new org.openide.explorer.view.TableView(nodeTableModel);
+        */
+        
+        tableView.setRootNode(rootNode); 
     }
 
 }
